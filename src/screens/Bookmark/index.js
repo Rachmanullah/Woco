@@ -3,7 +3,7 @@ import React from 'react';
 import { Add } from 'iconsax-react-native';
 import { BlogList } from '../../../data';
 import { ItemBookmark } from '../../component';
-import { fontType,colors } from '../../theme';
+import { fontType, colors } from '../../theme';
 const Bookmark = () => {
     return (
         <View style={styles.container}>

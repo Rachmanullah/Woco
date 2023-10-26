@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { ScrollView, StyleSheet, Text, View, FlatList, TouchableOpacity } from 'react-native';
 import { Element3, Notification } from 'iconsax-react-native';
-import { BlogList, CategoryList } from './data';
-import { fontType, colors } from './src/theme';
-import { ListHorizontal, ItemSmall } from './src/component';
+import { BlogList, CategoryList } from '../../../data';
+import { fontType, colors } from '../../theme';
+import { ListHorizontal, ItemSmall } from '../../component';
 const ItemCategory = ({ item, onPress, color }) => {
     return (
         <TouchableOpacity onPress={onPress}>
@@ -54,7 +54,7 @@ const ListBlog = () => {
     );
 };
 
-export default function App() {
+export default function Home() {
     return (
         <View style={styles.container}>
             <View style={styles.header}>
