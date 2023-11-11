@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     },
     header: {
         paddingHorizontal: 24,
-        justifyContent: 'flex- end',
+        justifyContent: 'flex-end',
         flexDirection: 'row',
         alignItems: 'center',
         height: 52,
